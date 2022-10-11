@@ -1,0 +1,11 @@
+user=int(input("enter the digit"))
+sum=0
+pro=1
+while user>0:
+    n=user%10
+    sum=sum+n
+    pro=pro*n
+    user=user//10
+    print(n)
+print(sum)
+print(pro)
